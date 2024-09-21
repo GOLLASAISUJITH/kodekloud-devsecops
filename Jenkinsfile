@@ -9,11 +9,6 @@ pipeline {
             }
         }
         
-        stage('mvn Version') {
-            steps {
-                sh "mvn -v"
-            }
-        }
         
         stage('Docker Version') {
             steps {
