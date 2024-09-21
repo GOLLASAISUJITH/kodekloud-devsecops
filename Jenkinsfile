@@ -25,7 +25,7 @@ pipeline {
             steps {
                 sh "whoami"
                 sh "sudo kubectl version"
-                sh "df -h"
+                sh "df"
             }
         }
     }
