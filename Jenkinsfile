@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage('kubernetes Version') {
+        stage('sonar') {
             steps {
                 sh "mvn clean verify sonar:sonar \
                     -Dsonar.projectKey=numeric \
